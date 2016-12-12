@@ -1,0 +1,18 @@
+
+
+def inp():
+    word = raw_input()
+    syori1(word)
+
+def syori1(word):
+    print word
+    print hantei(word)
+
+def hantei(word):
+    for i in xrange(len(word)):
+        print word[i]
+
+
+if __name__ == "__main__":
+    inp()
+
